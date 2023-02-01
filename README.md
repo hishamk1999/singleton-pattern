@@ -50,7 +50,7 @@ By calling the `new` method twice, we just set `counter1` and `counter2` equa
 
 The values returned by the `getInstanc` method on `counter1` and `counter2` effectively returned references to different instances: they aren't strictly equal!
 ![jspat-52_zkwyk1](https://user-images.githubusercontent.com/90291377/216083932-24c916b0-b8d3-4b7c-905c-06f6bc0838f0.gif)
-[Let’s make sure that only **one** instance of the `Counter` class can be created.](https://github.com/hishamk1999/singleton-pattern/blob/main/jspat-52_zkwyk1.gif)
+Let’s make sure that only **one** instance of the `Counter` class can be created.
 
 Let’s make sure that only **one** instance of the `Counter` class can be created.
 
@@ -143,7 +143,7 @@ Let's take a look at an application that implements the `Counter`example. We ha
 - `redButton.js`: imports `Counter`, and adds `Counter`'s `increment` method as an event listener to the **red** button, and logs the current value of `counter` by invoking the `getCount` method.
 - `blueButton.js`: imports `Counter`, and adds `Counter`'s `increment` method as an event listener to the **blue** button, and logs the current value of `counter` by invoking the `getCount` method
 
-[jspat-56_wylvcf.mp4](jspat-56_wylvcf.mp4)
+![jspat-56_wylvcf](https://user-images.githubusercontent.com/90291377/216084540-9cfab7e8-9406-4cb1-aeae-8c4f193381bc.gif)
 
 When we invoke the `increment` method in either `redButton.js` or `blueButton.js` , the value of the `counter` property on the `Counter` instance updates in both files.
 
