@@ -50,7 +50,7 @@ By calling the `new` method twice, we just set `counter1` and `counter2` equa
 
 The values returned by the `getInstanc` method on `counter1` and `counter2` effectively returned references to different instances: they aren't strictly equal!
 
-[Let’s make sure that only **one** instance of the `Counter` class can be created.](jspat-52_zkwyk1.mp4)
+[Let’s make sure that only **one** instance of the `Counter` class can be created.](https://github.com/hishamk1999/singleton-pattern/blob/main/jspat-52_zkwyk1.gif)
 
 Let’s make sure that only **one** instance of the `Counter` class can be created.
 
