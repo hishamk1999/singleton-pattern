@@ -49,7 +49,7 @@ console.log(counter1.getInstance() === counter2.getInstance()); // false
 By calling the `new` method twice, we just set `counter1` and `counter2` equal to different instances.
 
 The values returned by the `getInstanc` method on `counter1` and `counter2` effectively returned references to different instances: they aren't strictly equal!
-
+![jspat-52_zkwyk1](https://user-images.githubusercontent.com/90291377/216083932-24c916b0-b8d3-4b7c-905c-06f6bc0838f0.gif)
 [Let’s make sure that only **one** instance of the `Counter` class can be created.](https://github.com/hishamk1999/singleton-pattern/blob/main/jspat-52_zkwyk1.gif)
 
 Let’s make sure that only **one** instance of the `Counter` class can be created.
